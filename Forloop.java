@@ -34,9 +34,9 @@ public class Forloop {
     }
 
         public static void main (String[] args){
-           // System.out.println(showNumberTables(20));
+           System.out.println(showNumberTables(20));
             //System.out.println(showTimesTables(5, 7));
-            System.out.println(ArithProgression());
+            //System.out.println(ArithProgression());
         }
 
 }
