@@ -16,7 +16,7 @@ public class Forloop {
         for (int i = 0; i <= maxi; i++) {
             answer += number + " X " + i + " = " + (number * i) + "\n";
             // or like this
-            // answer= answer + "Answer is " + i +"\n";
+//             answer= answer + "Answer is " + i +"\n";
         }
         return answer;
 
@@ -35,8 +35,8 @@ public class Forloop {
 
         public static void main (String[] args){
            System.out.println(showNumberTables(20));
-            //System.out.println(showTimesTables(5, 7));
-            //System.out.println(ArithProgression());
+            System.out.println(showTimesTables(5, 7));
+            System.out.println(ArithProgression());
         }
 
 }
