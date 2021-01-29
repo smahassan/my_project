@@ -1,5 +1,5 @@
 public class Student extends Course {
-    private String university = "University of Abuja";
+    private String university;= "University of Abuja";
     private String matric_no;
     private String faculty;
     private String department;
@@ -9,6 +9,14 @@ public class Student extends Course {
     private String last_name;
     private String dob;
     private String state;
+
+
+
+
+    public void setUniversity(String university) {
+        this.university = university;
+    }
+
 
     public String getUniversity() {
         return university;
